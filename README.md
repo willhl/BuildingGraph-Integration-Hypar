@@ -18,6 +18,8 @@ Example connection data JSON:
   }
 }
 ```
+There's also a "ConnectionExample.json" with the URI and credetails used for the public API which can be used if you wanted to run it yourself. The live API is subject to change and rate limited so might not work consitently.
+
 
 First working function does what it says it does:
 
