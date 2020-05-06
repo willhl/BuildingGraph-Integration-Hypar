@@ -1,0 +1,34 @@
+{
+  "$schema": "https://hypar.io/Schemas/Function.json",
+  "id": "1931c5ec-50f6-4d43-8eb6-1a279828d1b0",
+  "name": "Levels from GraphQL and Perimeter",
+  "description": "Creates levels by perimeter and GraphQL query",
+  "language": "C#",
+  "inputs": [
+    {
+      "name": "Connection",
+      "description": "The connection information",
+      "type": "data",
+      "file_types": [ "json" ]
+    },
+    {
+      "primitive_type": "polygon",
+      "name": "Perimeter",
+      "description": "Perimeter of the Levels.",
+      "type": "geometry"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "Level Quantity",
+      "description": "Total number of levels.",
+      "type": "number"
+    }
+  ],
+  "element_types": [
+    "https://raw.githubusercontent.com/hypar-io/Schemas/master/Level.json",
+    "https://raw.githubusercontent.com/hypar-io/Schemas/master/LevelPerimeter.json"
+  ],
+  "repository_url": "https://github.com/willhl/BuildingGraph-Integration-Hypar",
+  "preview_image": null
+}
