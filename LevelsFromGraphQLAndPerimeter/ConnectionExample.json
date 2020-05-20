@@ -1,6 +1,6 @@
 {
-  "URI": "https://hlbuildinggraph.azure-api.net/dev-external/graphql",
+  "URI": "{api URI here}",
   "Headers": {
-    "Ocp-Apim-Subscription-Key": "ed83b43d55ff4d4eb2e01443d0a7864d"
+    "Authorization": "{kay/token here}"
   }
 }
